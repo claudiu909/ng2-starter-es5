@@ -1,7 +1,7 @@
 (function(app) {
     var Class = ng.core.Class;
 
-    var FlightsService = Class({
+    app.FlightsService = Class({
         constructor: function FlightsService() {
             this.flights = flightsData;
         },
