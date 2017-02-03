@@ -4,7 +4,7 @@
 
     app.FlightsComponent = Component({
         selector: 'flights-list',
-        template: '<p>{{flight.airline}} on {{flight.date}}</p>'
+        templateUrl: 'src/app/flights/flights.component.html'
     })
     .Class({
         constructor: [FlightsService, function FlightsComponent(flightsService) {

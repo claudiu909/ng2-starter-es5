@@ -3,9 +3,7 @@
 
     app.AppComponent = Component({
         selector: 'my-app',
-        template: 
-            '<h1>My App</h1>' +
-            '<flights-list></flights-list>'
+        templateUrl: 'src/app/app.component.html'
     })
     .Class({
         constructor: function AppComponent() {
